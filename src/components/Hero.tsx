@@ -1,5 +1,5 @@
 
-import { Button } from "@/components/ui/button";
+import { Button } from "./UI/button";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { FadeIn, SlideUp, SlideIn } from "./Transitions";

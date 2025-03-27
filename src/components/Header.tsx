@@ -1,11 +1,11 @@
 
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Button } from "@/components/ui/button";
+import { Button } from "./UI/button";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { LivePriceTracker } from "./LivePriceTracker";
-import { ThemeToggle } from "@/components/ThemeToggle";
+import { ThemeToggle } from "./ThemeToggle";
 
 export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
