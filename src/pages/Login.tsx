@@ -1,17 +1,17 @@
 import { useState } from "react";
 import { Header } from "@/components/Header";
 import { AuthCard } from "@/components/AuthCard";
-import { PageTransition } from "@/components/Transitions";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { Input } from "@/components/UI/input";
+import { Label } from "@/components/UI/label";
 import { Link } from "react-router-dom";
-import { Checkbox } from "@/components/ui/checkbox";
+import { Checkbox } from "@/components/UI/checkbox";
 import { toast } from "sonner";
 import Google from "/social-svg/google.svg";
 import MetaMask from "/social-svg/metamask.svg";
 import Twitter from "/social-svg/twitter.svg";
 import Apple from "/social-svg/apple.svg";
+import { PageTransition } from "@/components/Transitions";
 
 const Login = () => {
     const [email, setEmail] = useState("");

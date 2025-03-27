@@ -2,10 +2,10 @@
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { FeatureCard } from "@/components/FeatureCard";
-import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { PageTransition, StaggerContainer, StaggerItem } from "@/components/Transitions";
 import { Wallet, BarChart3, Shield, Zap, ArrowRight, Repeat, Users } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
