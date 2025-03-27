@@ -1,7 +1,7 @@
 
 import { useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/UI/button";
 import { PageTransition } from "@/components/Transitions";
 
 const NotFound = () => {
