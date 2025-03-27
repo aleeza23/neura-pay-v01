@@ -5,16 +5,16 @@ import { FeatureCard } from "@/components/FeatureCard";
 import { Link } from "react-router-dom";
 import { PageTransition, StaggerContainer, StaggerItem } from "@/components/Transitions";
 import { Wallet, BarChart3, Shield, Zap, ArrowRight, Repeat, Users } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/UI/button";
 
 const Index = () => {
   return (
     <PageTransition>
       <Header />
-      
+
       <main className="overflow-hidden">
         <Hero />
-        
+
         {/* Features Section */}
         <section className="py-24 container" id="features">
           <div className="text-center max-w-3xl mx-auto mb-16">
@@ -25,7 +25,7 @@ const Index = () => {
               Our platform is designed with security, speed, and simplicity in mind, providing you with the best cryptocurrency trading experience.
             </p>
           </div>
-          
+
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <FeatureCard
               icon={<Shield className="w-6 h-6" />}
@@ -65,7 +65,7 @@ const Index = () => {
             />
           </div>
         </section>
-        
+
         {/* CTA Section */}
         <section className="py-24 bg-secondary/50">
           <div className="container max-w-4xl mx-auto text-center">
@@ -75,11 +75,11 @@ const Index = () => {
             <p className="text-muted-foreground text-lg mb-10 max-w-2xl mx-auto">
               Join thousands of traders who trust our platform for secure, fast, and reliable cryptocurrency transactions.
             </p>
-            
+
             <div className="flex flex-wrap justify-center gap-4">
-              <Button 
-                asChild 
-                size="lg" 
+              <Button
+                asChild
+                size="lg"
                 className="text-base bg-primary hover:bg-primary/90"
               >
                 <Link to="/signup">
@@ -87,9 +87,9 @@ const Index = () => {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
-              <Button 
-                asChild 
-                size="lg" 
+              <Button
+                asChild
+                size="lg"
                 variant="outline"
                 className="text-base"
               >
@@ -100,7 +100,7 @@ const Index = () => {
             </div>
           </div>
         </section>
-        
+
         {/* Footer */}
         <footer className="py-12 bg-background">
           <div className="container">
@@ -112,14 +112,14 @@ const Index = () => {
                   </Link>
                   <p className="text-muted-foreground mt-2">Secure. Fast. Reliable.</p>
                 </div>
-                
+
                 <nav className="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-6 md:mb-0">
                   <Link to="/" className="text-sm hover:text-primary transition-colors">Home</Link>
                   <Link to="/login" className="text-sm hover:text-primary transition-colors">Login</Link>
                   <Link to="/signup" className="text-sm hover:text-primary transition-colors">Sign Up</Link>
                 </nav>
               </div>
-              
+
               <div className="border-t border-border mt-6 pt-6 flex flex-col md:flex-row justify-between items-center">
                 <p className="text-sm text-muted-foreground mb-4 md:mb-0">
                   © {new Date().getFullYear()} Neura pay. All rights reserved.
