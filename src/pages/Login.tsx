@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Header } from "@/components/Header";
 import { AuthCard } from "@/components/AuthCard";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/UI/input";
-import { Label } from "@/components/UI/label";
+import { Button } from "../components/UI/button";
+import { Input } from "../components/UI/input";
+import { Label } from "../components/UI/label";
 import { Link } from "react-router-dom";
 import { Checkbox } from "@/components/UI/checkbox";
 import { toast } from "sonner";
